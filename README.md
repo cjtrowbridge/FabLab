@@ -10,7 +10,7 @@ FabLab will begin by including the user’s agent framework and adding two disti
    * `cjtrowbridge/vibe-cutting`
    * `earthtojake/text-to-cad`
   
-   [https://github.com/cjtrowbridge/agents](https://github.com/cjtrowbridge/agents) at ./agents  
+   [https://github.com/cjtrowbridge/agents](https://github.com/cjtrowbridge/agents) at ./agents (and then follow the instructions inside to integrate it into this repo)  
    [https://github.com/cjtrowbridge/vibe-modeling](https://github.com/cjtrowbridge/vibe-modeling) at ./third_party/vibe-modelling  
    [https://github.com/cjtrowbridge/vibe-cutting](https://github.com/cjtrowbridge/vibe-cutting) at ./third_party/vibe-cutting  
    [https://github.com/earthtojake/text-to-cad](https://github.com/earthtojake/text-to-cad) at ./third_party/text-to-cad  
