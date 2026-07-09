@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "step_parts",
+  "name": "step.parts",
+  "classification": "component_source",
+  "upstream_url": "https://github.com/earthtojake/step.parts",
+  "submodule_path": "third_party/step.parts",
+  "invocation_mode": "component_source_provider",
+  "license_boundary": "component_models_require_provenance_review",
+  "output_authority": "component_model_provenance",
+  "expected_outputs": ["step_component_model", "component_provenance"],
+  "validation_required": ["component_fit", "measurement_confidence", "assembly_fit"],
+  "setup_command": null,
+  "check_command": null,
+  "notes": "Component source. Physical fit remains unverified until measured or tested."
+}

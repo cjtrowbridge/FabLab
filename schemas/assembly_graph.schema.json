@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","title":"Assembly Graph","type":"object","required":["schema_version","project_id","nodes"],"properties":{"schema_version":{"type":"integer"},"project_id":{"type":"string"},"nodes":{"type":"array"},"edges":{"type":"array"}},"additionalProperties":true}

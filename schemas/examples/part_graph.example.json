@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "project_id": "hybrid_enclosure_example",
+  "parts": [
+    {
+      "schema_version": 1,
+      "id": "front_panel",
+      "name": "Front Panel",
+      "function": "Mounts switches and labels power channels.",
+      "interfaces": ["toggle_switch_cutout"]
+    }
+  ],
+  "interfaces": [
+    {
+      "schema_version": 1,
+      "id": "toggle_switch_cutout",
+      "interface_type": "switch_cutout",
+      "participants": ["front_panel", "main_toggle"],
+      "validation_required": ["component_fit"]
+    }
+  ]
+}

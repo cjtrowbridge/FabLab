@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "part_id": "front_panel",
+  "recommended_processes": [
+    {
+      "process": "laser_cut_and_engrave",
+      "material": "3mm acrylic",
+      "confidence": "high",
+      "reason": "The part is flat and benefits from engraved labels."
+    }
+  ],
+  "selected_process": null
+}

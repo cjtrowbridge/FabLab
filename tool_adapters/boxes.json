@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "boxes",
+  "name": "Boxes.py",
+  "classification": "permanent_provider",
+  "upstream_url": "https://github.com/florianfesti/boxes.git",
+  "submodule_path": "third_party/boxes",
+  "invocation_mode": "future_subprocess",
+  "license_boundary": "do_not_import_into_core_without_review",
+  "output_authority": "source_geometry_only",
+  "expected_outputs": ["source_geometry", "svg_candidate", "provenance"],
+  "validation_required": ["laser_bounds", "kerf_review", "operation_order", "material_recipe_validity"],
+  "setup_command": null,
+  "check_command": null,
+  "notes": "Useful for fitted laser-cut structures. FabLab owns machine artifacts and readiness claims."
+}

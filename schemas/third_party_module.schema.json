@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","title":"Third Party Module","type":"object","required":["schema_version","path","classification","upstream_url"],"properties":{"schema_version":{"type":"integer"},"path":{"type":"string"},"classification":{"type":"string"},"upstream_url":{"type":"string"},"commit":{"type":"string"}},"additionalProperties":true}

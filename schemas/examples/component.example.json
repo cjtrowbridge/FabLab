@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "id": "main_toggle",
+  "component_type": "toggle_switch",
+  "status": "proxy_unverified",
+  "provenance": ["user_supplied_part_name"],
+  "dimensions_mm": {}
+}

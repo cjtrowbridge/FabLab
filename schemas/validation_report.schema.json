@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","title":"Validation Report","type":"object","required":["schema_version","project_id","results"],"properties":{"schema_version":{"type":"integer"},"project_id":{"type":"string"},"results":{"type":"array","items":{"type":"object"}},"readiness_state":{"type":"string"}},"additionalProperties":true}

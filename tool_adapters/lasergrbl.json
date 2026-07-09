@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "lasergrbl",
+  "name": "LaserGRBL",
+  "classification": "manual_operator_reference",
+  "upstream_url": "https://github.com/arkypita/LaserGRBL.git",
+  "submodule_path": "third_party/lasergrbl",
+  "invocation_mode": "manual_operator_reference",
+  "license_boundary": "reference_only_do_not_link_into_core",
+  "output_authority": "reference_only",
+  "expected_outputs": ["operator_reference", "preview_reference"],
+  "validation_required": ["machine_profile_validity", "material_recipe_validity", "human_safety"],
+  "setup_command": null,
+  "check_command": null,
+  "notes": "Reference for GRBL operator workflows; not a FabLab runtime dependency."
+}

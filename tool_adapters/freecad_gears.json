@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "freecad_gears",
+  "name": "FreeCAD Gears",
+  "classification": "inspection_only_provider",
+  "upstream_url": "https://github.com/looooo/freecad.gears.git",
+  "submodule_path": "third_party/freecad-gears",
+  "invocation_mode": "future_system_application_provider",
+  "license_boundary": "inspection_only_do_not_import_into_core",
+  "output_authority": "inspection_artifact_only",
+  "expected_outputs": ["inspection_artifact", "step_provenance", "comparison_geometry"],
+  "validation_required": ["gear_mesh", "mechanism_validation", "artifact_audit"],
+  "setup_command": null,
+  "check_command": null,
+  "notes": "Inspection/provenance provider only; not an authority for final fabrication jobs."
+}

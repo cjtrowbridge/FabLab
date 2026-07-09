@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "bosl2",
+  "name": "BOSL2",
+  "classification": "permanent_reference",
+  "upstream_url": "https://github.com/BelfrySCAD/BOSL2.git",
+  "submodule_path": "third_party/bosl2",
+  "invocation_mode": "openscad_library_reference",
+  "license_boundary": "library_reference_review_before_core_copy",
+  "output_authority": "source_geometry_only",
+  "expected_outputs": ["openscad_library_geometry", "comparison_geometry", "provenance"],
+  "validation_required": ["geometry_validity", "structural_review", "artifact_audit"],
+  "setup_command": null,
+  "check_command": null,
+  "notes": "OpenSCAD helper/reference library. Outputs require FabLab validation."
+}

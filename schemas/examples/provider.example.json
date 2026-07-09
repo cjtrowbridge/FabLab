@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "id": "boxes",
+  "classification": "permanent_provider",
+  "submodule_path": "third_party/boxes",
+  "output_authority": "source_geometry_only",
+  "validation_required": ["laser_bounds", "kerf_review"]
+}

@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "project_id": "hybrid_enclosure_example",
+  "readiness_state": "generated",
+  "results": [
+    {
+      "domain": "component_fit",
+      "result": "unverified",
+      "reason": "Toggle switch cutout dimensions require measurement."
+    }
+  ]
+}

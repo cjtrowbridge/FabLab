@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "cadquery",
+  "name": "CadQuery",
+  "classification": "permanent_provider_dependency",
+  "upstream_url": "https://github.com/CadQuery/cadquery.git",
+  "submodule_path": "third_party/cadquery",
+  "invocation_mode": "future_python_environment",
+  "license_boundary": "external_dependency_do_not_vendor_into_core",
+  "output_authority": "source_geometry_only",
+  "expected_outputs": ["step", "brep", "stl_candidate", "source_geometry"],
+  "validation_required": ["geometry_validity", "assembly_fit", "component_fit", "artifact_audit"],
+  "setup_command": null,
+  "check_command": null,
+  "notes": "Foundation for STEP/BREP-capable modeling through FabLab-owned providers."
+}

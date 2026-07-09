@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","title":"Component Measurement","type":"object","required":["schema_version","component_id","measurements"],"properties":{"schema_version":{"type":"integer"},"component_id":{"type":"string"},"measurements":{"type":"object"},"source":{"type":"string"}},"additionalProperties":true}

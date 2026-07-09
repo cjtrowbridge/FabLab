@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","title":"BOM","type":"object","required":["schema_version","project_id","items"],"properties":{"schema_version":{"type":"integer"},"project_id":{"type":"string"},"items":{"type":"array","items":{"type":"object"}}},"additionalProperties":true}

@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","title":"Selected Process Plan","type":"object","required":["schema_version","project_id","selections"],"properties":{"schema_version":{"type":"integer"},"project_id":{"type":"string"},"selections":{"type":"array","items":{"type":"object"}},"approval_status":{"type":"string"}},"additionalProperties":true}

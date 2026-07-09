@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "id": "hybrid_enclosure_example",
+  "name": "Hybrid Enclosure Example",
+  "status": "proposed",
+  "parts": ["front_panel"],
+  "components": ["main_toggle"]
+}

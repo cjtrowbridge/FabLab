@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "generated_from": "git submodule status --recursive",
+  "submodules": [
+    {"path": "agents", "url": "https://github.com/cjtrowbridge/agents", "commit": "a264b984c127673a557aa8acf183dbbea8bdb3d6", "status": "permanent_framework_dependency"},
+    {"path": "third_party/bosl2", "url": "https://github.com/BelfrySCAD/BOSL2.git", "commit": "fbcdfdd511b6abfde93c43c8f85c2bd24ee7a02d", "classification": "permanent_reference"},
+    {"path": "third_party/boxes", "url": "https://github.com/florianfesti/boxes.git", "commit": "836f5f72bedb33ac4262ed925545eacb31e926a8", "classification": "permanent_provider"},
+    {"path": "third_party/cad-viewer", "url": "https://github.com/earthtojake/cad-viewer", "commit": "50a09799a227e21203d882ba8d50014a3480aee8", "classification": "viewer_reference"},
+    {"path": "third_party/cadquery", "url": "https://github.com/CadQuery/cadquery.git", "commit": "f69500e54640a3da8fcee9d063a5a1f996d63263", "classification": "permanent_provider_dependency"},
+    {"path": "third_party/cq_gears", "url": "https://github.com/meadiode/cq_gears.git", "commit": "e73874cf17a25447a99b1e7c22a4d5af38560e9c", "classification": "permanent_provider"},
+    {"path": "third_party/freecad-gears", "url": "https://github.com/looooo/freecad.gears.git", "commit": "d55e8e3d21208e052379a8451507fb4a727ae292", "classification": "inspection_only_provider"},
+    {"path": "third_party/lasergrbl", "url": "https://github.com/arkypita/LaserGRBL.git", "commit": "1f9337b3af27133f8b1696e41cc110f2af74d04f", "classification": "manual_operator_reference"},
+    {"path": "third_party/step.parts", "url": "https://github.com/earthtojake/step.parts", "commit": "c6113328a5695b976a010a203a90fe86191769bf", "classification": "component_source"},
+    {"path": "third_party/text-to-cad", "url": "https://github.com/earthtojake/text-to-cad", "commit": "622c258fbdea64614056bfe33f3d3f183021a374", "classification": "temporary_assimilation_source"},
+    {"path": "third_party/vibe-cutting", "url": "https://github.com/cjtrowbridge/vibe-cutting", "commit": "d5c0280250269165956c38ca0319ee7403a6810e", "classification": "temporary_assimilation_source"},
+    {"path": "third_party/vibe-modeling", "url": "https://github.com/cjtrowbridge/vibe-modeling", "commit": "7f7c8b9171b1ff2941f5435e3dbe4aeb2ef684bc", "classification": "temporary_assimilation_source"}
+  ]
+}

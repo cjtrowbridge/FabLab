@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "cq_gears",
+  "name": "CQ_Gears",
+  "classification": "permanent_provider",
+  "upstream_url": "https://github.com/meadiode/cq_gears.git",
+  "submodule_path": "third_party/cq_gears",
+  "invocation_mode": "future_python_environment",
+  "license_boundary": "do_not_import_into_core_without_review",
+  "output_authority": "source_geometry_only",
+  "expected_outputs": ["gear_source_geometry", "step_candidate", "provenance"],
+  "validation_required": ["gear_mesh", "gear_ratio", "clearance", "mechanism_validation"],
+  "setup_command": null,
+  "check_command": null,
+  "notes": "Gear geometry provider. FabLab owns mechanism validation and readiness language."
+}

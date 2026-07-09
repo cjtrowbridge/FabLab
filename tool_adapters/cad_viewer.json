@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "cad_viewer",
+  "name": "CAD Viewer",
+  "classification": "viewer_reference",
+  "upstream_url": "https://github.com/earthtojake/cad-viewer",
+  "submodule_path": "third_party/cad-viewer",
+  "invocation_mode": "viewer_reference",
+  "license_boundary": "review_required_before_runtime_use",
+  "output_authority": "preview_only",
+  "expected_outputs": ["viewer_artifact", "preview", "inspection_reference"],
+  "validation_required": ["cross_artifact_inspection", "artifact_audit"],
+  "setup_command": null,
+  "check_command": null,
+  "notes": "Viewer/reference patterns. Preview correctness is not fabrication readiness."
+}

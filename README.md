@@ -35,6 +35,8 @@ Much of FabLab’s work is not to eliminate third-party tools. It is to make the
 
 FabLab should eventually replace the previously separate additive and subtractive repositories with a single holistic fabrication system that can have a high-level conversation with an agent, decompose a project into parts, recommend materials and tools for each part, generate the appropriate artifacts for each manufacturing process, validate those artifacts, and produce a self-documenting output bundle with fabrication and assembly instructions.
 
+For the phased execution plan and exit gates that take this repository from the initial spec to temporary-repo retirement, see [ROADMAP.md](ROADMAP.md).
+
 ## Source Context
 
 The existing additive repo, `vibe-modeling`, already provides a reusable OpenSCAD project layout, JSON-driven parameter revisions, build helpers, revision snapshots, generated artifacts, agent playbooks, and structural verification expectations for printable CAD work.

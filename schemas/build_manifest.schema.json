@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","title":"Build Manifest","type":"object","required":["schema_version","project","manifest_type"],"properties":{"schema_version":{"type":"integer"},"project":{"type":"string"},"manifest_type":{"type":"string"},"inputs":{"type":"array"},"outputs":{"type":"array"}},"additionalProperties":true}

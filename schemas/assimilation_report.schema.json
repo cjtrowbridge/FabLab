@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","title":"Assimilation Report","type":"object","required":["schema_version","source_repo","disposition"],"properties":{"schema_version":{"type":"integer"},"source_repo":{"type":"string"},"disposition":{"type":"string"},"capabilities":{"type":"array"},"retirement_evidence":{"type":"array"}},"additionalProperties":true}

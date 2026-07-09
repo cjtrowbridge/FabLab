@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "project_id": "hybrid_enclosure_example",
+  "artifacts": [
+    {
+      "path": "laser/front_panel.svg",
+      "artifact_type": "fabrication_artifact",
+      "readiness_state": "generated"
+    }
+  ]
+}
